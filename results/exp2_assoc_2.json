@@ -1,0 +1,86 @@
+{
+    "alu_instructions": 49,
+    "average_memory_latency_cycles": 124.52486910994764,
+    "coalescing_efficiency": 0.125,
+    "dram": {
+        "bandwidth_utilization": 0.2468497576736672,
+        "total_busy_cycles": 3056,
+        "total_bytes_transferred": 97792,
+        "total_requests": 3056
+    },
+    "ipc": 0.01938610662358643,
+    "l1_cache": {
+        "accesses": 6112,
+        "evictions": 5808,
+        "hit_rate": 0.5,
+        "miss_rate": 0.5,
+        "read_hits": 2528,
+        "read_misses": 2528,
+        "reads": 5056,
+        "total_hits": 3056,
+        "total_misses": 3056,
+        "write_hits": 528,
+        "write_misses": 528,
+        "writebacks": 1024,
+        "writes": 1056
+    },
+    "l2_cache": {
+        "accesses": 3056,
+        "evictions": 1008,
+        "hit_rate": 0.0,
+        "miss_rate": 1.0,
+        "read_hits": 0,
+        "read_misses": 2528,
+        "reads": 2528,
+        "total_hits": 0,
+        "total_misses": 3056,
+        "write_hits": 0,
+        "write_misses": 528,
+        "writebacks": 208,
+        "writes": 528
+    },
+    "memory_instructions": 191,
+    "scheduler": {
+        "average_eligible_warps": 0.01987075928917609,
+        "cycles_evaluated": 12380,
+        "cycles_idle": 12140,
+        "cycles_issued": 240,
+        "scheduler_utilization": 0.01938610662358643,
+        "total_issues": 240
+    },
+    "stall_breakdown": {
+        "scheduler_idle_cycles": 12140,
+        "warp_memory_stall_cycles": 48046
+    },
+    "total_coalesced_transactions": 6112,
+    "total_instructions_issued": 240,
+    "total_memory_stall_cycles": 48046,
+    "total_simulated_cycles": 12380,
+    "transactions_per_mem_inst": 32.0,
+    "warps": [
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 11848,
+            "stall_cycles": 11848,
+            "warp_id": 0
+        },
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 11797,
+            "stall_cycles": 11797,
+            "warp_id": 1
+        },
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 12318,
+            "stall_cycles": 12318,
+            "warp_id": 2
+        },
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 12083,
+            "stall_cycles": 12083,
+            "warp_id": 3
+        }
+    ]
+}

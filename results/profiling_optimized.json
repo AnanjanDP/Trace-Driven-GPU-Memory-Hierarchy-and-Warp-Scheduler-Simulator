@@ -1,0 +1,42 @@
+{
+    "suite_name": "profiling_optimized",
+    "timestamp": "2026-10-20 13:52:38",
+    "benchmarks": [
+        {
+            "name": "Sequential_Coalesced_80K",
+            "pattern": "sequential",
+            "warps": 16,
+            "instructions": 80000,
+            "cycles": 964714,
+            "ipc": 0.08292613147523514,
+            "min_time_sec": 0.2338625000556931,
+            "avg_time_sec": 0.23541190005683651,
+            "kips": 342.0813511398725,
+            "mcycles_per_sec": 4.125133357294387
+        },
+        {
+            "name": "Random_Memory_Bound_96K",
+            "pattern": "random",
+            "warps": 32,
+            "instructions": 96000,
+            "cycles": 2385308,
+            "ipc": 0.04024637489162825,
+            "min_time_sec": 1.1474782000295818,
+            "avg_time_sec": 1.1542238333495334,
+            "kips": 83.66172010721,
+            "mcycles_per_sec": 2.0787392735988424
+        },
+        {
+            "name": "Matmul_GTO_High_Contention_64K",
+            "pattern": "matmul",
+            "warps": 32,
+            "instructions": 166082,
+            "cycles": 166186,
+            "ipc": 0.9993741951788959,
+            "min_time_sec": 0.376066799974069,
+            "avg_time_sec": 0.3893450999554868,
+            "kips": 441.62898722102534,
+            "mcycles_per_sec": 0.44190553383457154
+        }
+    ]
+}

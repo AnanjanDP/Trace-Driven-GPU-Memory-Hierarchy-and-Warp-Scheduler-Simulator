@@ -1,0 +1,56 @@
+[
+    {
+        "workload": "repeated",
+        "policy": "ROUND_ROBIN",
+        "ipc": 0.2609262883235486,
+        "cycles": 3066,
+        "l1_hit_rate": 0.7552816901408451,
+        "total_memory_stalls": 45224,
+        "scheduler_utilization": 0.2609262883235486
+    },
+    {
+        "workload": "repeated",
+        "policy": "GTO",
+        "ipc": 0.2601626016260163,
+        "cycles": 3075,
+        "l1_hit_rate": 0.7561619718309859,
+        "total_memory_stalls": 45160,
+        "scheduler_utilization": 0.2601626016260163
+    },
+    {
+        "workload": "matmul",
+        "policy": "ROUND_ROBIN",
+        "ipc": 0.9013035381750466,
+        "cycles": 2148,
+        "l1_hit_rate": 0.9795774647887324,
+        "total_memory_stalls": 16922,
+        "scheduler_utilization": 0.9013035381750466
+    },
+    {
+        "workload": "matmul",
+        "policy": "GTO",
+        "ipc": 0.9263157894736842,
+        "cycles": 2090,
+        "l1_hit_rate": 0.9795774647887324,
+        "total_memory_stalls": 16922,
+        "scheduler_utilization": 0.9263157894736842
+    },
+    {
+        "workload": "streaming",
+        "policy": "ROUND_ROBIN",
+        "ipc": 0.08421052631578947,
+        "cycles": 9500,
+        "l1_hit_rate": 0.75,
+        "total_memory_stalls": 134048,
+        "scheduler_utilization": 0.08421052631578947
+    },
+    {
+        "workload": "streaming",
+        "policy": "GTO",
+        "ipc": 0.08409544833385893,
+        "cycles": 9513,
+        "l1_hit_rate": 0.75,
+        "total_memory_stalls": 134048,
+        "scheduler_utilization": 0.08409544833385893
+    }
+]

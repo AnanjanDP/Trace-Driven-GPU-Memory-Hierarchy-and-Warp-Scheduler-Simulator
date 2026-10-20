@@ -1,0 +1,86 @@
+{
+    "alu_instructions": 60,
+    "average_memory_latency_cycles": 49.75,
+    "coalescing_efficiency": 1.0,
+    "dram": {
+        "bandwidth_utilization": 0.01839587932303164,
+        "total_busy_cycles": 100,
+        "total_bytes_transferred": 3200,
+        "total_requests": 100
+    },
+    "ipc": 0.029433406916850625,
+    "l1_cache": {
+        "accesses": 400,
+        "evictions": 0,
+        "hit_rate": 0.75,
+        "miss_rate": 0.25,
+        "read_hits": 231,
+        "read_misses": 77,
+        "reads": 308,
+        "total_hits": 300,
+        "total_misses": 100,
+        "write_hits": 69,
+        "write_misses": 23,
+        "writebacks": 0,
+        "writes": 92
+    },
+    "l2_cache": {
+        "accesses": 100,
+        "evictions": 0,
+        "hit_rate": 0.0,
+        "miss_rate": 1.0,
+        "read_hits": 0,
+        "read_misses": 77,
+        "reads": 77,
+        "total_hits": 0,
+        "total_misses": 100,
+        "write_hits": 0,
+        "write_misses": 23,
+        "writebacks": 0,
+        "writes": 23
+    },
+    "memory_instructions": 100,
+    "scheduler": {
+        "average_eligible_warps": 0.03219278881530537,
+        "cycles_evaluated": 5436,
+        "cycles_idle": 5276,
+        "cycles_issued": 160,
+        "scheduler_utilization": 0.029433406916850625,
+        "total_issues": 160
+    },
+    "stall_breakdown": {
+        "scheduler_idle_cycles": 5276,
+        "warp_memory_stall_cycles": 18600
+    },
+    "total_coalesced_transactions": 400,
+    "total_instructions_issued": 160,
+    "total_memory_stall_cycles": 18600,
+    "total_simulated_cycles": 5436,
+    "transactions_per_mem_inst": 4.0,
+    "warps": [
+        {
+            "instructions_issued": 40,
+            "memory_stall_cycles": 4464,
+            "stall_cycles": 4464,
+            "warp_id": 0
+        },
+        {
+            "instructions_issued": 40,
+            "memory_stall_cycles": 5394,
+            "stall_cycles": 5394,
+            "warp_id": 1
+        },
+        {
+            "instructions_issued": 40,
+            "memory_stall_cycles": 4650,
+            "stall_cycles": 4650,
+            "warp_id": 2
+        },
+        {
+            "instructions_issued": 40,
+            "memory_stall_cycles": 4092,
+            "stall_cycles": 4092,
+            "warp_id": 3
+        }
+    ]
+}

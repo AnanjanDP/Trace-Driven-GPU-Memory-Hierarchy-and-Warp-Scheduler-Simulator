@@ -1,0 +1,29 @@
+{
+    "warp_count": 16,
+    "scheduler_count": 1,
+    "issue_width": 1,
+    "scheduling_policy": "ROUND_ROBIN",
+    "sector_size_bytes": 32,
+    "l1_cache": {
+        "enabled": true,
+        "capacity_bytes": 32768,
+        "line_size_bytes": 128,
+        "associativity": 4,
+        "hit_latency": 4,
+        "replacement_policy": "LRU"
+    },
+    "l2_cache": {
+        "capacity_bytes": 262144,
+        "line_size_bytes": 128,
+        "associativity": 16,
+        "hit_latency": 32,
+        "replacement_policy": "LRU"
+    },
+    "dram": {
+        "latency": 200,
+        "bandwidth_bytes_per_cycle": 128.0,
+        "max_queue_size": 64
+    },
+    "trace_file": "traces/exp7_workload.trace",
+    "output_stats_file": "results/exp7_bw_128.json"
+}

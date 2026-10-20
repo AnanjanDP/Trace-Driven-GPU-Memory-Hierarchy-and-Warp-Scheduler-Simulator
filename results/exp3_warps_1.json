@@ -1,0 +1,68 @@
+{
+    "alu_instructions": 11,
+    "average_memory_latency_cycles": 49.75,
+    "coalescing_efficiency": 1.0,
+    "dram": {
+        "bandwidth_utilization": 0.005336768494663232,
+        "total_busy_cycles": 29,
+        "total_bytes_transferred": 928,
+        "total_requests": 29
+    },
+    "ipc": 0.00736105999263894,
+    "l1_cache": {
+        "accesses": 116,
+        "evictions": 0,
+        "hit_rate": 0.75,
+        "miss_rate": 0.25,
+        "read_hits": 54,
+        "read_misses": 18,
+        "reads": 72,
+        "total_hits": 87,
+        "total_misses": 29,
+        "write_hits": 33,
+        "write_misses": 11,
+        "writebacks": 0,
+        "writes": 44
+    },
+    "l2_cache": {
+        "accesses": 29,
+        "evictions": 0,
+        "hit_rate": 0.0,
+        "miss_rate": 1.0,
+        "read_hits": 0,
+        "read_misses": 18,
+        "reads": 18,
+        "total_hits": 0,
+        "total_misses": 29,
+        "write_hits": 0,
+        "write_misses": 11,
+        "writebacks": 0,
+        "writes": 11
+    },
+    "memory_instructions": 29,
+    "scheduler": {
+        "average_eligible_warps": 0.00736105999263894,
+        "cycles_evaluated": 5434,
+        "cycles_idle": 5394,
+        "cycles_issued": 40,
+        "scheduler_utilization": 0.00736105999263894,
+        "total_issues": 40
+    },
+    "stall_breakdown": {
+        "scheduler_idle_cycles": 5394,
+        "warp_memory_stall_cycles": 5394
+    },
+    "total_coalesced_transactions": 116,
+    "total_instructions_issued": 40,
+    "total_memory_stall_cycles": 5394,
+    "total_simulated_cycles": 5434,
+    "transactions_per_mem_inst": 4.0,
+    "warps": [
+        {
+            "instructions_issued": 40,
+            "memory_stall_cycles": 5394,
+            "stall_cycles": 5394,
+            "warp_id": 0
+        }
+    ]
+}

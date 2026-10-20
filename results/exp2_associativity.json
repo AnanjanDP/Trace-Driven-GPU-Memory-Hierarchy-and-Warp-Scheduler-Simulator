@@ -1,0 +1,42 @@
+[
+    {
+        "associativity": 1,
+        "ipc": 0.01938610662358643,
+        "cycles": 12380,
+        "l1_hit_rate": 0.5,
+        "l1_evictions": 5840,
+        "l1_misses": 3056
+    },
+    {
+        "associativity": 2,
+        "ipc": 0.01938610662358643,
+        "cycles": 12380,
+        "l1_hit_rate": 0.5,
+        "l1_evictions": 5808,
+        "l1_misses": 3056
+    },
+    {
+        "associativity": 4,
+        "ipc": 0.01938610662358643,
+        "cycles": 12380,
+        "l1_hit_rate": 0.5,
+        "l1_evictions": 2800,
+        "l1_misses": 3056
+    },
+    {
+        "associativity": 8,
+        "ipc": 0.01938610662358643,
+        "cycles": 12380,
+        "l1_hit_rate": 0.5,
+        "l1_evictions": 2800,
+        "l1_misses": 3056
+    },
+    {
+        "associativity": 16,
+        "ipc": 0.01938610662358643,
+        "cycles": 12380,
+        "l1_hit_rate": 0.5,
+        "l1_evictions": 2800,
+        "l1_misses": 3056
+    }
+]

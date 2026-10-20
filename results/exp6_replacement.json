@@ -1,0 +1,34 @@
+[
+    {
+        "workload": "repeated",
+        "replacement_policy": "LRU",
+        "ipc": 0.13990090352666862,
+        "cycles": 3431,
+        "l1_hit_rate": 0.7764483627204031,
+        "l1_evictions": 382
+    },
+    {
+        "workload": "repeated",
+        "replacement_policy": "FIFO",
+        "ipc": 0.13986013986013987,
+        "cycles": 3432,
+        "l1_hit_rate": 0.7726700251889169,
+        "l1_evictions": 368
+    },
+    {
+        "workload": "random",
+        "replacement_policy": "LRU",
+        "ipc": 0.03403048564338887,
+        "cycles": 14105,
+        "l1_hit_rate": 0.01963512677798392,
+        "l1_evictions": 22912
+    },
+    {
+        "workload": "random",
+        "replacement_policy": "FIFO",
+        "ipc": 0.03403048564338887,
+        "cycles": 14105,
+        "l1_hit_rate": 0.01963512677798392,
+        "l1_evictions": 22437
+    }
+]

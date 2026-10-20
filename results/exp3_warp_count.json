@@ -1,0 +1,66 @@
+[
+    {
+        "warp_count": 1,
+        "ipc": 0.00736105999263894,
+        "cycles": 5434,
+        "memory_stall_cycles": 5394,
+        "scheduler_utilization": 0.00736105999263894,
+        "avg_eligible_warps": 0.00736105999263894
+    },
+    {
+        "warp_count": 2,
+        "ipc": 0.01578843497138346,
+        "cycles": 5067,
+        "memory_stall_cycles": 10044,
+        "scheduler_utilization": 0.01578843497138346,
+        "avg_eligible_warps": 0.017169923031379514
+    },
+    {
+        "warp_count": 4,
+        "ipc": 0.029433406916850625,
+        "cycles": 5436,
+        "memory_stall_cycles": 18600,
+        "scheduler_utilization": 0.029433406916850625,
+        "avg_eligible_warps": 0.03219278881530537
+    },
+    {
+        "warp_count": 8,
+        "ipc": 0.060859642449600605,
+        "cycles": 5258,
+        "memory_stall_cycles": 35898,
+        "scheduler_utilization": 0.060859642449600605,
+        "avg_eligible_warps": 0.07854697603651578
+    },
+    {
+        "warp_count": 16,
+        "ipc": 0.11357586512866016,
+        "cycles": 5635,
+        "memory_stall_cycles": 72540,
+        "scheduler_utilization": 0.11357586512866016,
+        "avg_eligible_warps": 0.19006211180124225
+    },
+    {
+        "warp_count": 32,
+        "ipc": 0.2202718981242471,
+        "cycles": 5811,
+        "memory_stall_cycles": 141918,
+        "scheduler_utilization": 0.2202718981242471,
+        "avg_eligible_warps": 0.4973326449836517
+    },
+    {
+        "warp_count": 48,
+        "ipc": 0.30917874396135264,
+        "cycles": 6210,
+        "memory_stall_cycles": 212784,
+        "scheduler_utilization": 0.30917874396135264,
+        "avg_eligible_warps": 0.8323671497584542
+    },
+    {
+        "warp_count": 64,
+        "ipc": 0.45519203413940257,
+        "cycles": 5624,
+        "memory_stall_cycles": 281604,
+        "scheduler_utilization": 0.45519203413940257,
+        "avg_eligible_warps": 1.4950213371266003
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "capacity_bytes": 1024,
+        "capacity_kb": 1,
+        "ipc": 0.15928322548531607,
+        "cycles": 4018,
+        "l1_hit_rate": 0.75,
+        "l1_hits": 1515,
+        "l1_misses": 505,
+        "dram_requests": 64
+    },
+    {
+        "capacity_bytes": 2048,
+        "capacity_kb": 2,
+        "ipc": 0.15928322548531607,
+        "cycles": 4018,
+        "l1_hit_rate": 0.75,
+        "l1_hits": 1515,
+        "l1_misses": 505,
+        "dram_requests": 64
+    },
+    {
+        "capacity_bytes": 4096,
+        "capacity_kb": 4,
+        "ipc": 0.16775884665792923,
+        "cycles": 3815,
+        "l1_hit_rate": 0.7821782178217822,
+        "l1_hits": 1580,
+        "l1_misses": 440,
+        "dram_requests": 64
+    },
+    {
+        "capacity_bytes": 8192,
+        "capacity_kb": 8,
+        "ipc": 0.16775884665792923,
+        "cycles": 3815,
+        "l1_hit_rate": 0.7821782178217822,
+        "l1_hits": 1580,
+        "l1_misses": 440,
+        "dram_requests": 64
+    },
+    {
+        "capacity_bytes": 16384,
+        "capacity_kb": 16,
+        "ipc": 0.16775884665792923,
+        "cycles": 3815,
+        "l1_hit_rate": 0.7821782178217822,
+        "l1_hits": 1580,
+        "l1_misses": 440,
+        "dram_requests": 64
+    },
+    {
+        "capacity_bytes": 32768,
+        "capacity_kb": 32,
+        "ipc": 0.16775884665792923,
+        "cycles": 3815,
+        "l1_hit_rate": 0.7821782178217822,
+        "l1_hits": 1580,
+        "l1_misses": 440,
+        "dram_requests": 64
+    }
+]

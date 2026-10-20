@@ -1,0 +1,110 @@
+{
+    "alu_instructions": 83,
+    "average_memory_latency_cycles": 19.2544080604534,
+    "coalescing_efficiency": 1.0,
+    "dram": {
+        "bandwidth_utilization": 0.018653453803555816,
+        "total_busy_cycles": 64,
+        "total_bytes_transferred": 2048,
+        "total_requests": 64
+    },
+    "ipc": 0.13990090352666862,
+    "l1_cache": {
+        "accesses": 1588,
+        "evictions": 382,
+        "hit_rate": 0.7764483627204031,
+        "miss_rate": 0.22355163727959698,
+        "read_hits": 1008,
+        "read_misses": 296,
+        "reads": 1304,
+        "total_hits": 1233,
+        "total_misses": 355,
+        "write_hits": 225,
+        "write_misses": 59,
+        "writebacks": 77,
+        "writes": 284
+    },
+    "l2_cache": {
+        "accesses": 355,
+        "evictions": 0,
+        "hit_rate": 0.819718309859155,
+        "miss_rate": 0.18028169014084508,
+        "read_hits": 245,
+        "read_misses": 51,
+        "reads": 296,
+        "total_hits": 291,
+        "total_misses": 64,
+        "write_hits": 46,
+        "write_misses": 13,
+        "writebacks": 0,
+        "writes": 59
+    },
+    "memory_instructions": 397,
+    "scheduler": {
+        "average_eligible_warps": 0.1638006412124745,
+        "cycles_evaluated": 3431,
+        "cycles_idle": 2951,
+        "cycles_issued": 480,
+        "scheduler_utilization": 0.13990090352666862,
+        "total_issues": 480
+    },
+    "stall_breakdown": {
+        "scheduler_idle_cycles": 2951,
+        "warp_memory_stall_cycles": 25415
+    },
+    "total_coalesced_transactions": 1588,
+    "total_instructions_issued": 480,
+    "total_memory_stall_cycles": 25415,
+    "total_simulated_cycles": 3431,
+    "transactions_per_mem_inst": 4.0,
+    "warps": [
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 3026,
+            "stall_cycles": 3026,
+            "warp_id": 0
+        },
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 3198,
+            "stall_cycles": 3198,
+            "warp_id": 1
+        },
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 3332,
+            "stall_cycles": 3332,
+            "warp_id": 2
+        },
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 3201,
+            "stall_cycles": 3201,
+            "warp_id": 3
+        },
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 3128,
+            "stall_cycles": 3128,
+            "warp_id": 4
+        },
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 3067,
+            "stall_cycles": 3067,
+            "warp_id": 5
+        },
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 3358,
+            "stall_cycles": 3358,
+            "warp_id": 6
+        },
+        {
+            "instructions_issued": 60,
+            "memory_stall_cycles": 3105,
+            "stall_cycles": 3105,
+            "warp_id": 7
+        }
+    ]
+}

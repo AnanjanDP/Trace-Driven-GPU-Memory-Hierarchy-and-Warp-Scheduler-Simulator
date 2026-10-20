@@ -1,0 +1,62 @@
+[
+    {
+        "stride_words": 1,
+        "stride_bytes": 4,
+        "transactions_per_mem_inst": 4.0,
+        "coalescing_efficiency": 1.0,
+        "total_coalesced_transactions": 1504,
+        "dram_transferred_bytes": 12032,
+        "ipc": 0.03374103753690426,
+        "cycles": 11855
+    },
+    {
+        "stride_words": 2,
+        "stride_bytes": 8,
+        "transactions_per_mem_inst": 8.0,
+        "coalescing_efficiency": 0.5,
+        "total_coalesced_transactions": 3008,
+        "dram_transferred_bytes": 24064,
+        "ipc": 0.033582402820921835,
+        "cycles": 11911
+    },
+    {
+        "stride_words": 4,
+        "stride_bytes": 16,
+        "transactions_per_mem_inst": 16.0,
+        "coalescing_efficiency": 0.25,
+        "total_coalesced_transactions": 6016,
+        "dram_transferred_bytes": 48128,
+        "ipc": 0.033286177914620955,
+        "cycles": 12017
+    },
+    {
+        "stride_words": 8,
+        "stride_bytes": 32,
+        "transactions_per_mem_inst": 32.0,
+        "coalescing_efficiency": 0.125,
+        "total_coalesced_transactions": 12032,
+        "dram_transferred_bytes": 96256,
+        "ipc": 0.03270913402567667,
+        "cycles": 12229
+    },
+    {
+        "stride_words": 16,
+        "stride_bytes": 64,
+        "transactions_per_mem_inst": 32.0,
+        "coalescing_efficiency": 0.125,
+        "total_coalesced_transactions": 12032,
+        "dram_transferred_bytes": 192512,
+        "ipc": 0.03161305619220738,
+        "cycles": 12653
+    },
+    {
+        "stride_words": 32,
+        "stride_bytes": 128,
+        "transactions_per_mem_inst": 32.0,
+        "coalescing_efficiency": 0.125,
+        "total_coalesced_transactions": 12032,
+        "dram_transferred_bytes": 385024,
+        "ipc": 0.02962743500481446,
+        "cycles": 13501
+    }
+]

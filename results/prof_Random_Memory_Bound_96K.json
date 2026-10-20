@@ -1,0 +1,254 @@
+{
+    "alu_instructions": 19161,
+    "average_memory_latency_cycles": 943.8436642634804,
+    "coalescing_efficiency": 0.12524168708485342,
+    "dram": {
+        "bandwidth_utilization": 0.9985108841290098,
+        "total_busy_cycles": 2381756,
+        "total_bytes_transferred": 76216192,
+        "total_requests": 2381756
+    },
+    "ipc": 0.04024637489162825,
+    "l1_cache": {
+        "accesses": 2454103,
+        "evictions": 4784392,
+        "hit_rate": 0.02078600612932709,
+        "miss_rate": 0.9792139938706729,
+        "read_hits": 40842,
+        "read_misses": 1921446,
+        "reads": 1962288,
+        "total_hits": 51011,
+        "total_misses": 2403092,
+        "write_hits": 10169,
+        "write_misses": 481646,
+        "writebacks": 964795,
+        "writes": 491815
+    },
+    "l2_cache": {
+        "accesses": 2403092,
+        "evictions": 3471129,
+        "hit_rate": 0.008878561453327629,
+        "miss_rate": 0.9911214385466723,
+        "read_hits": 17073,
+        "read_misses": 1904373,
+        "reads": 1921446,
+        "total_hits": 21336,
+        "total_misses": 2381756,
+        "write_hits": 4263,
+        "write_misses": 477383,
+        "writebacks": 699461,
+        "writes": 481646
+    },
+    "memory_instructions": 76839,
+    "scheduler": {
+        "average_eligible_warps": 0.04046437608895791,
+        "cycles_evaluated": 2385308,
+        "cycles_idle": 2289308,
+        "cycles_issued": 96000,
+        "scheduler_utilization": 0.04024637489162825,
+        "total_issues": 96000
+    },
+    "stall_breakdown": {
+        "scheduler_idle_cycles": 2289308,
+        "warp_memory_stall_cycles": 75757949
+    },
+    "total_coalesced_transactions": 2454103,
+    "total_instructions_issued": 96000,
+    "total_memory_stall_cycles": 75757949,
+    "total_simulated_cycles": 2385308,
+    "transactions_per_mem_inst": 31.938247504522444,
+    "warps": [
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2377662,
+            "stall_cycles": 2377662,
+            "warp_id": 0
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2378250,
+            "stall_cycles": 2378250,
+            "warp_id": 1
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2354734,
+            "stall_cycles": 2354734,
+            "warp_id": 2
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2375509,
+            "stall_cycles": 2375509,
+            "warp_id": 3
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2351415,
+            "stall_cycles": 2351415,
+            "warp_id": 4
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2362137,
+            "stall_cycles": 2362137,
+            "warp_id": 5
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2372750,
+            "stall_cycles": 2372750,
+            "warp_id": 6
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2366673,
+            "stall_cycles": 2366673,
+            "warp_id": 7
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2342217,
+            "stall_cycles": 2342217,
+            "warp_id": 8
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2374355,
+            "stall_cycles": 2374355,
+            "warp_id": 9
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2373925,
+            "stall_cycles": 2373925,
+            "warp_id": 10
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2375837,
+            "stall_cycles": 2375837,
+            "warp_id": 11
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2373433,
+            "stall_cycles": 2373433,
+            "warp_id": 12
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2351651,
+            "stall_cycles": 2351651,
+            "warp_id": 13
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2379055,
+            "stall_cycles": 2379055,
+            "warp_id": 14
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2355834,
+            "stall_cycles": 2355834,
+            "warp_id": 15
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2381180,
+            "stall_cycles": 2381180,
+            "warp_id": 16
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2373521,
+            "stall_cycles": 2373521,
+            "warp_id": 17
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2322550,
+            "stall_cycles": 2322550,
+            "warp_id": 18
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2376995,
+            "stall_cycles": 2376995,
+            "warp_id": 19
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2382289,
+            "stall_cycles": 2382289,
+            "warp_id": 20
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2376251,
+            "stall_cycles": 2376251,
+            "warp_id": 21
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2373061,
+            "stall_cycles": 2373061,
+            "warp_id": 22
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2375337,
+            "stall_cycles": 2375337,
+            "warp_id": 23
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2379446,
+            "stall_cycles": 2379446,
+            "warp_id": 24
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2356102,
+            "stall_cycles": 2356102,
+            "warp_id": 25
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2375004,
+            "stall_cycles": 2375004,
+            "warp_id": 26
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2380015,
+            "stall_cycles": 2380015,
+            "warp_id": 27
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2345776,
+            "stall_cycles": 2345776,
+            "warp_id": 28
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2360586,
+            "stall_cycles": 2360586,
+            "warp_id": 29
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2373752,
+            "stall_cycles": 2373752,
+            "warp_id": 30
+        },
+        {
+            "instructions_issued": 3000,
+            "memory_stall_cycles": 2360647,
+            "stall_cycles": 2360647,
+            "warp_id": 31
+        }
+    ]
+}
